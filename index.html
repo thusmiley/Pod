@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Pod Request Access" />
+    <meta property="og:description" content="Developed by Thu" />
+    <meta property="og:image" content="./assets/preview.jpg" />
+    <link rel="icon" href="./assets/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pod Request Access</title>
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <div class="logo">
+        <a href=""><img src="./assets/desktop/logo.svg" alt="" /></a>
+      </div>
+
+      <div class="dots">
+        <img src="./assets/desktop/bg-pattern-dots.svg" alt="" />
+      </div>
+
+      <section class="card">
+        <div class="main-text">
+          <h1 class="title"><span>Publish your podcasts</span> everywhere.</h1>
+
+          <p class="body-text">
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+        </div>
+
+        <div class="footer">
+          <!-- FORM -->
+          <div class="form">
+            <form class="inputs">
+              <div class="email">
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  name="email"
+                  required
+                  class="input-email"
+                />
+              </div>
+
+              <div class="request">
+                <input type="submit" value="Request Access" />
+              </div>
+            </form>
+
+            <!-- Notis -->
+            <div data-type="message" class="noti noti-error">
+              Oops... Please check your email.
+            </div>
+            <div data-type="message" class="noti noti-success">
+              Request Access Sent!
+            </div>
+          </div>
+
+          <div class="icons">
+            <img class="spotify" src="./assets/desktop/spotify.svg" alt="" />
+            <img class="apple" src="./assets/desktop/apple-podcast.svg" alt="" />
+            <img class="google" src="./assets/desktop/google-podcasts.svg" alt="" />
+            <img class="pocket" src="./assets/desktop/pocket-casts.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
